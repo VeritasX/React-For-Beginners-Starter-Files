@@ -2,5 +2,6 @@
 import React from "react";
 import { render } from "react-dom";
 import StorePicker from "./components/StorePicker";
-
-render(<StorePicker />, document.querySelector("#main"));
+import App from "./components/app";
+import "./css/style.css";
+render(<App />, document.querySelector("#main"));
